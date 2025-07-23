@@ -1,1 +1,14 @@
-rootProject.name = 'add_2_calendar'
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+    plugins {
+        id "dev.flutter.flutter-gradle-plugin" version "1.0.0"
+    }
+}
+
+include(":add_2_calendar")
+
+rootProject.name = "add_2_calendar"
