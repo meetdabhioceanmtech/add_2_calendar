@@ -9,7 +9,7 @@ version = '1.0-SNAPSHOT'
 
 android {
     namespace 'com.javih.add_2_calendar'
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         minSdk = 21
